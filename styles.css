@@ -1,0 +1,83 @@
+/* Styles for final project Github webpage */
+
+.wrapper{
+margin-top: 40px;
+margin-bottom: 50px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+h1{
+    text-align: center;
+    font-family:Copperplate, Papyrus, fantasy;
+    font-size: 60px;
+    text-shadow:gray 6px 6px;
+    margin-top: 0%;
+    color: black;
+}
+
+html { 
+    background: url('https://foundation.seattlecolleges.edu/sites/foundation.seattlecolleges.edu/files/default_images/seattle-colleges.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color:gray;
+    color:black;
+  }
+
+.content{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+
+p{
+    height: 400px;
+    width: 200px;
+    text-align: center;
+    background-color:#009cc3;
+    border: solid white 3px;
+    color:black;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 80px;
+    margin-left: 180px;
+    display: inline;
+    margin-bottom: 0%;
+    border: white solid 3px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-shadow: gray 2px 2px;
+    font-size: 20px;
+}
+
+ul{
+    text-shadow: black 3px 3px;
+    list-style-type:none;
+}
+
+.team{
+    font-size: 25px;
+}
+
+span{
+    padding: 40px;
+}
+
+.separate{
+  margin-bottom: 15px;
+}
